@@ -10,4 +10,5 @@ target 'Live' do
 	pod 'Toast'
 	pod 'MBProgressHUD'
 	pod 'ReactiveObjC'
+	pod 'YYCategories'
 end

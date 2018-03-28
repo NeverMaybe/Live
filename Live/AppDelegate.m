@@ -3,7 +3,7 @@
 //  Live
 //
 //  Created by Never on 2018/3/23.
-//  Copyright © 2018年 Never. All rights reserved.
+//  Copyright © 20/Users/y/Desktop/Live/Live/src/Help18年 Never. All rights reserved.
 //
 
 #import "AppDelegate.h"

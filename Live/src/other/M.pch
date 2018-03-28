@@ -1,0 +1,14 @@
+//
+//  M.pch
+//  Live
+//
+//  Created by Never on 2018/3/28.
+//  Copyright © 2018年 Never. All rights reserved.
+//
+
+#ifndef M_pch
+#define M_pch
+
+#import "MHelp.h"
+
+#endif /* M_pch */

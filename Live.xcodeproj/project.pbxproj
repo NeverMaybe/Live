@@ -13,6 +13,9 @@
 		1810BB612064D2790087D6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1810BB602064D2790087D6E0 /* Assets.xcassets */; };
 		1810BB642064D2790087D6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1810BB622064D2790087D6E0 /* LaunchScreen.storyboard */; };
 		1810BB672064D2790087D6E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB662064D2790087D6E0 /* main.m */; };
+		1810BB79206889C00087D6E0 /* MAbstractController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB78206889C00087D6E0 /* MAbstractController.m */; };
+		1810BB7C206889F00087D6E0 /* MTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB7B206889F00087D6E0 /* MTabBarController.m */; };
+		1810BB84206B84D00087D6E0 /* MHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB83206B84D00087D6E0 /* MHelp.m */; };
 		B660CC48D07A1180EBF0202C /* libPods-Live.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCB09EC8F09649CD14A5A42 /* libPods-Live.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,13 @@
 		1810BB632064D2790087D6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1810BB652064D2790087D6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1810BB662064D2790087D6E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1810BB77206889C00087D6E0 /* MAbstractController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAbstractController.h; sourceTree = "<group>"; };
+		1810BB78206889C00087D6E0 /* MAbstractController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAbstractController.m; sourceTree = "<group>"; };
+		1810BB7A206889F00087D6E0 /* MTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTabBarController.h; sourceTree = "<group>"; };
+		1810BB7B206889F00087D6E0 /* MTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTabBarController.m; sourceTree = "<group>"; };
+		1810BB82206B84D00087D6E0 /* MHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHelp.h; sourceTree = "<group>"; };
+		1810BB83206B84D00087D6E0 /* MHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHelp.m; sourceTree = "<group>"; };
+		1810BB85206B85720087D6E0 /* M.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M.pch; sourceTree = "<group>"; };
 		4FCB09EC8F09649CD14A5A42 /* libPods-Live.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Live.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C1B90DD80F72D699DB27C6 /* Pods-Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.release.xcconfig"; sourceTree = "<group>"; };
 		695E595E546B122728B6EC8E /* Pods-Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,17 +75,114 @@
 		1810BB562064D2790087D6E0 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				1810BB70206887190087D6E0 /* src */,
 				1810BB572064D2790087D6E0 /* AppDelegate.h */,
 				1810BB582064D2790087D6E0 /* AppDelegate.m */,
+				1810BB602064D2790087D6E0 /* Assets.xcassets */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		1810BB70206887190087D6E0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1810BB71206887B80087D6E0 /* Abstract */,
+				1810BB72206887B80087D6E0 /* lib */,
+				1810BB73206887B80087D6E0 /* module */,
+				1810BB7F206B844C0087D6E0 /* utils */,
+				1810BB7E206B844C0087D6E0 /* other */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1810BB71206887B80087D6E0 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				1810BB77206889C00087D6E0 /* MAbstractController.h */,
+				1810BB78206889C00087D6E0 /* MAbstractController.m */,
+				1810BB7A206889F00087D6E0 /* MTabBarController.h */,
+				1810BB7B206889F00087D6E0 /* MTabBarController.m */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		1810BB72206887B80087D6E0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1810BB73206887B80087D6E0 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				1810BB76206888010087D6E0 /* Live */,
+				1810BB74206888010087D6E0 /* Mine */,
+				1810BB75206888010087D6E0 /* Video */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		1810BB74206888010087D6E0 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		1810BB75206888010087D6E0 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		1810BB76206888010087D6E0 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		1810BB7E206B844C0087D6E0 /* other */ = {
+			isa = PBXGroup;
+			children = (
 				1810BB5A2064D2790087D6E0 /* ViewController.h */,
 				1810BB5B2064D2790087D6E0 /* ViewController.m */,
 				1810BB5D2064D2790087D6E0 /* Main.storyboard */,
-				1810BB602064D2790087D6E0 /* Assets.xcassets */,
 				1810BB622064D2790087D6E0 /* LaunchScreen.storyboard */,
 				1810BB652064D2790087D6E0 /* Info.plist */,
 				1810BB662064D2790087D6E0 /* main.m */,
+				1810BB85206B85720087D6E0 /* M.pch */,
 			);
-			path = Live;
+			name = other;
+			path = Live/src/other;
+			sourceTree = SOURCE_ROOT;
+		};
+		1810BB7F206B844C0087D6E0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1810BB80206B84BB0087D6E0 /* MAppData */,
+				1810BB81206B84BB0087D6E0 /* MHelp */,
+			);
+			name = utils;
+			path = Live/src/utils;
+			sourceTree = SOURCE_ROOT;
+		};
+		1810BB80206B84BB0087D6E0 /* MAppData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MAppData;
+			sourceTree = "<group>";
+		};
+		1810BB81206B84BB0087D6E0 /* MHelp */ = {
+			isa = PBXGroup;
+			children = (
+				1810BB82206B84D00087D6E0 /* MHelp.h */,
+				1810BB83206B84D00087D6E0 /* MHelp.m */,
+			);
+			path = MHelp;
 			sourceTree = "<group>";
 		};
 		4DF966605AD4CD0BCF846A9B /* Frameworks */ = {
@@ -124,6 +231,7 @@
 		1810BB4C2064D2790087D6E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = M;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Never;
 				TargetAttributes = {
@@ -220,8 +328,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1810BB84206B84D00087D6E0 /* MHelp.m in Sources */,
 				1810BB5C2064D2790087D6E0 /* ViewController.m in Sources */,
+				1810BB79206889C00087D6E0 /* MAbstractController.m in Sources */,
 				1810BB672064D2790087D6E0 /* main.m in Sources */,
+				1810BB7C206889F00087D6E0 /* MTabBarController.m in Sources */,
 				1810BB592064D2790087D6E0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,13 +468,16 @@
 			baseConfigurationReference = 695E595E546B122728B6EC8E /* Pods-Live.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BZBLWU4MK8;
-				INFOPLIST_FILE = Live/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Live/src/other/M.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Live/src/other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Y.com.Live;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -372,13 +486,16 @@
 			baseConfigurationReference = 53C1B90DD80F72D699DB27C6 /* Pods-Live.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BZBLWU4MK8;
-				INFOPLIST_FILE = Live/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Live/src/other/M.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Live/src/other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Y.com.Live;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
