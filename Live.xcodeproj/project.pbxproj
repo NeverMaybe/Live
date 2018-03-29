@@ -16,6 +16,9 @@
 		1810BB79206889C00087D6E0 /* MAbstractController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB78206889C00087D6E0 /* MAbstractController.m */; };
 		1810BB7C206889F00087D6E0 /* MTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB7B206889F00087D6E0 /* MTabBarController.m */; };
 		1810BB84206B84D00087D6E0 /* MHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB83206B84D00087D6E0 /* MHelp.m */; };
+		1810BB88206B960C0087D6E0 /* MVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB87206B960C0087D6E0 /* MVideoController.m */; };
+		1810BB8B206B961B0087D6E0 /* MMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB8A206B961B0087D6E0 /* MMineController.m */; };
+		1810BB8E206B962C0087D6E0 /* MLiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB8D206B962C0087D6E0 /* MLiveController.m */; };
 		B660CC48D07A1180EBF0202C /* libPods-Live.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCB09EC8F09649CD14A5A42 /* libPods-Live.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,12 @@
 		1810BB82206B84D00087D6E0 /* MHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHelp.h; sourceTree = "<group>"; };
 		1810BB83206B84D00087D6E0 /* MHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHelp.m; sourceTree = "<group>"; };
 		1810BB85206B85720087D6E0 /* M.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M.pch; sourceTree = "<group>"; };
+		1810BB86206B960C0087D6E0 /* MVideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVideoController.h; sourceTree = "<group>"; };
+		1810BB87206B960C0087D6E0 /* MVideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVideoController.m; sourceTree = "<group>"; };
+		1810BB89206B961B0087D6E0 /* MMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMineController.h; sourceTree = "<group>"; };
+		1810BB8A206B961B0087D6E0 /* MMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMineController.m; sourceTree = "<group>"; };
+		1810BB8C206B962C0087D6E0 /* MLiveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLiveController.h; sourceTree = "<group>"; };
+		1810BB8D206B962C0087D6E0 /* MLiveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLiveController.m; sourceTree = "<group>"; };
 		4FCB09EC8F09649CD14A5A42 /* libPods-Live.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Live.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C1B90DD80F72D699DB27C6 /* Pods-Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.release.xcconfig"; sourceTree = "<group>"; };
 		695E595E546B122728B6EC8E /* Pods-Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,9 +125,9 @@
 		1810BB73206887B80087D6E0 /* module */ = {
 			isa = PBXGroup;
 			children = (
+				1810BB75206888010087D6E0 /* Video */,
 				1810BB76206888010087D6E0 /* Live */,
 				1810BB74206888010087D6E0 /* Mine */,
-				1810BB75206888010087D6E0 /* Video */,
 			);
 			path = module;
 			sourceTree = "<group>";
@@ -126,6 +135,8 @@
 		1810BB74206888010087D6E0 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				1810BB89206B961B0087D6E0 /* MMineController.h */,
+				1810BB8A206B961B0087D6E0 /* MMineController.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -133,6 +144,8 @@
 		1810BB75206888010087D6E0 /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				1810BB86206B960C0087D6E0 /* MVideoController.h */,
+				1810BB87206B960C0087D6E0 /* MVideoController.m */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -140,6 +153,8 @@
 		1810BB76206888010087D6E0 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				1810BB8C206B962C0087D6E0 /* MLiveController.h */,
+				1810BB8D206B962C0087D6E0 /* MLiveController.m */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -329,10 +344,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1810BB84206B84D00087D6E0 /* MHelp.m in Sources */,
+				1810BB8E206B962C0087D6E0 /* MLiveController.m in Sources */,
 				1810BB5C2064D2790087D6E0 /* ViewController.m in Sources */,
 				1810BB79206889C00087D6E0 /* MAbstractController.m in Sources */,
+				1810BB88206B960C0087D6E0 /* MVideoController.m in Sources */,
 				1810BB672064D2790087D6E0 /* main.m in Sources */,
 				1810BB7C206889F00087D6E0 /* MTabBarController.m in Sources */,
+				1810BB8B206B961B0087D6E0 /* MMineController.m in Sources */,
 				1810BB592064D2790087D6E0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
