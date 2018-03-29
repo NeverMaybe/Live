@@ -10,6 +10,7 @@
 #import <Toast.h>
 #import <Masonry.h>
 #import <YYCategories.h>
+#import <UIImageView+WebCache.h>
 
 #pragma mark ----- 宏定义
 /* 宽高 */

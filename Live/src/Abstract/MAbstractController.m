@@ -41,7 +41,7 @@
 
 - (void)setLeftNavigationItem
 {
-    UIImage *img = [UIImage imageNamed:@"back_indicator_black"];
+    UIImage *img = [UIImage imageNamed:@"userinside_backwhite"];
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn addTarget:self action:@selector(onClickLeft) forControlEvents:UIControlEventTouchUpInside];
     [btn setFrame:CGRectMake(0, 0, 30, img.size.height)];

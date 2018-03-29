@@ -19,6 +19,8 @@
 		1810BB88206B960C0087D6E0 /* MVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB87206B960C0087D6E0 /* MVideoController.m */; };
 		1810BB8B206B961B0087D6E0 /* MMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB8A206B961B0087D6E0 /* MMineController.m */; };
 		1810BB8E206B962C0087D6E0 /* MLiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810BB8D206B962C0087D6E0 /* MLiveController.m */; };
+		18E01DED206C8A9600C2E2EA /* MAppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E01DEC206C8A9600C2E2EA /* MAppData.m */; };
+		18E01DF6206C8F5900C2E2EA /* MURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E01DF5206C8F5900C2E2EA /* MURL.m */; };
 		B660CC48D07A1180EBF0202C /* libPods-Live.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCB09EC8F09649CD14A5A42 /* libPods-Live.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,10 @@
 		1810BB8A206B961B0087D6E0 /* MMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMineController.m; sourceTree = "<group>"; };
 		1810BB8C206B962C0087D6E0 /* MLiveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLiveController.h; sourceTree = "<group>"; };
 		1810BB8D206B962C0087D6E0 /* MLiveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLiveController.m; sourceTree = "<group>"; };
+		18E01DEB206C8A9600C2E2EA /* MAppData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAppData.h; sourceTree = "<group>"; };
+		18E01DEC206C8A9600C2E2EA /* MAppData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAppData.m; sourceTree = "<group>"; };
+		18E01DF4206C8F5900C2E2EA /* MURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MURL.h; sourceTree = "<group>"; };
+		18E01DF5206C8F5900C2E2EA /* MURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MURL.m; sourceTree = "<group>"; };
 		4FCB09EC8F09649CD14A5A42 /* libPods-Live.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Live.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C1B90DD80F72D699DB27C6 /* Pods-Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.release.xcconfig"; sourceTree = "<group>"; };
 		695E595E546B122728B6EC8E /* Pods-Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +124,8 @@
 		1810BB72206887B80087D6E0 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				18E01DF4206C8F5900C2E2EA /* MURL.h */,
+				18E01DF5206C8F5900C2E2EA /* MURL.m */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -187,6 +195,8 @@
 		1810BB80206B84BB0087D6E0 /* MAppData */ = {
 			isa = PBXGroup;
 			children = (
+				18E01DEB206C8A9600C2E2EA /* MAppData.h */,
+				18E01DEC206C8A9600C2E2EA /* MAppData.m */,
 			);
 			path = MAppData;
 			sourceTree = "<group>";
@@ -346,6 +356,8 @@
 				1810BB84206B84D00087D6E0 /* MHelp.m in Sources */,
 				1810BB8E206B962C0087D6E0 /* MLiveController.m in Sources */,
 				1810BB5C2064D2790087D6E0 /* ViewController.m in Sources */,
+				18E01DF6206C8F5900C2E2EA /* MURL.m in Sources */,
+				18E01DED206C8A9600C2E2EA /* MAppData.m in Sources */,
 				1810BB79206889C00087D6E0 /* MAbstractController.m in Sources */,
 				1810BB88206B960C0087D6E0 /* MVideoController.m in Sources */,
 				1810BB672064D2790087D6E0 /* main.m in Sources */,
