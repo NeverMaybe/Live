@@ -23,7 +23,7 @@
 /* 颜色 */
 #define RGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
 /* 主色调 */
-#define MAINCOLOR     RGBA(211, 0, 0, 1.f)
+#define MAINCOLOR     [UIColor blackColor]
 /* 字体 */
 #define FONT(f)       ([UIFont systemFontOfSize:f])
 /* log */

@@ -36,7 +36,6 @@
     self.tabBar.layer.shadowOpacity = 0.3f;
     self.tabBar.layer.shadowRadius = 4.f;
     self.tabBar.layer.shadowOffset = CGSizeMake(0, 0);
-    
 }
 
 - (void)addChildController {
